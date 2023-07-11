@@ -200,7 +200,7 @@ featured-text{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 80px 40px;
+    padding: 80px 15px;
 }
 .insta-photo{
     align-items: center;
@@ -221,7 +221,7 @@ featured-text{
     padding-bottom: 75px;
 }
 .email-button input{
-    border: none;
+    border: no;
     padding: 20px 200px;
     border-radius: 8px;
 }

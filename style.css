@@ -145,7 +145,7 @@ featured-text{
     text-decoration:underline;
 }
 
-/*  */
+
 
 
 
@@ -215,11 +215,10 @@ featured-text{
 }
 .letest-heading{
     text-align: center;
-    padding-top: px;
 }
 .email-button{
     margin: 140px;
-    padding-bottom: 80px;
+    padding-bottom: 75px;
 }
 .email-button input{
     padding: 20px 200px;

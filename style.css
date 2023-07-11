@@ -4,6 +4,23 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+.nav-bar{
+    display: flex;
+    padding: 30px;
+    gap: 100px;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+    background-color: #b1adad;
+    color: #fff;
+}
+.nav-bar li{
+    list-style: none;
+}
+.nav-bar li:hover{
+    color: #e55473;
+    cursor: pointer;
+}
 
 .header-container{
     background-color: #E554731A;
@@ -35,7 +52,7 @@
 }
 .btn{
     padding: 20px 40px;
-    background-color: #E55473;
+    background-color: #e55473;
     border-radius: 8px;
     border: none;
     margin-top: 20px;
@@ -84,8 +101,9 @@
 }
 /* hot deals section end */
 .instagram-container{
-    margin: 80 px 0;
-    width: 50% 0;
+    /* margin: auto */
+    
+
 
 }
 .instagram-title{
@@ -101,8 +119,64 @@
 .insta-photo{
     align-items: center;
     margin: auto;
-    /* margin: 50px; */
-    width: 340px;
-    /* height: 400px;
-    padding: 10px 5px; */
 }
+
+.letest-details{
+    margin: auto;
+    width: 95%;
+    background-image: url("./images/Rectangle 9.png");
+    text-align: center;
+}
+.letest-heading{
+    text-align: center;
+    padding-top: px;
+}
+.email-button{
+    margin: 140px;
+    padding-bottom: 80px;
+}
+.email-button input{
+    padding: 20px 200px;
+    border-radius: 8px;
+}
+.letest-heading{
+    padding-top: 80px;
+}
+.letest-p{
+    padding-top: 20px;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+
+
+
+
+
+
+.footer{
+    height: 60vh;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.footer-title{
+    text-align: center;
+    padding-top: 150px;
+}
+.footer-text{
+    text-align: center;
+    padding-top: 30px;
+    line-height: 25px;
+    color: rgb(201, 208, 214);
+}
+.footer{
+    background-color: #000;
+    color: #fff;
+}
+.copy{
+    text-align: center;
+    font-size: small;
+    padding-top: 30px;
+    color: #939090;
+}
+/* footer section end */

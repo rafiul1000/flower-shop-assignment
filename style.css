@@ -221,6 +221,7 @@ featured-text{
     padding-bottom: 75px;
 }
 .email-button input{
+    border: none;
     padding: 20px 200px;
     border-radius: 8px;
 }

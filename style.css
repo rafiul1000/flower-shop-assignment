@@ -4,6 +4,10 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+
+/* header section */
+
+
 .nav-bar{
     display: flex;
     padding: 30px;
@@ -14,6 +18,7 @@
     background-color: #b1adad;
     color: #fff;
 }
+
 .nav-bar li{
     list-style: none;
 }
@@ -31,7 +36,7 @@
 }
 .heading{
     color: #272727;
-    font-size: 60px;
+    font-size: 70px;
     font-style: normal;
     font-weight: 700;
     
@@ -57,9 +62,93 @@
     border: none;
     margin-top: 20px;
     color: white;
+    font-size: 16px;
     font-weight: 700;
 }
-/* header section end */
+
+/* header-section end */
+
+featured-text{
+    height: 100vh;
+    width: auto;
+    margin: 20px 10px;
+}
+.featured-title{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    color: #272727
+}
+.featured-details{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 10px;
+    padding-top: 32px;
+    text-align: center;
+}
+.sub-image{
+    width: 200px;
+    background-color: #b1adad;
+}
+
+
+.ph-photo{
+    width: 200px;
+    
+}
+.featured-image-1{
+    width: 250px;
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 300px 300px 0px 0px;
+    background: #F2DEE8
+
+}
+.featured-image-2{
+    width: 250px;
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 300px 300px 0px 0px;
+    background: #DAF0F1
+
+}
+.featured-image-3{
+    width: 250px;
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 300px 300px 0px 0px;
+    background: #E3EBDB
+
+}
+.featured-images{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.flower-name{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    font-size: 20px;
+    text-decoration:underline;
+}
+
+/*  */
+
+
+
 .main-container{
     display: flex;
     justify-content: space-around;
@@ -95,20 +184,17 @@
     border: none;
     margin-top: 40px;
     color: white;
+    font-size: 16px;
     font-weight: 700;
     text-align: center;
     margin-left: 200px;
 }
 /* hot deals section end */
-.instagram-container{
-    /* margin: auto */
-    
 
-
-}
 .instagram-title{
     text-align: center;
     padding-top: px;
+    font-size: 40px;
 }
 .instagram-boxes{
     display: flex;
@@ -141,17 +227,15 @@
 }
 .letest-heading{
     padding-top: 80px;
+    color: #272727;
+    font-size: 30px;
+    font-weight: 700;
 }
 .letest-p{
     padding-top: 20px;
     color: rgba(39, 39, 39, 0.60);
 }
-
-
-
-
-
-
+/* letest deals end */
 
 .footer{
     height: 60vh;
@@ -162,6 +246,7 @@
 .footer-title{
     text-align: center;
     padding-top: 150px;
+    font-size: 45px;
 }
 .footer-text{
     text-align: center;
